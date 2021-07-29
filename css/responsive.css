@@ -1,0 +1,263 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .bar-btn i{
+        color: white;
+        font-size: 30px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .bar-btn i{
+    color: white;
+    font-size: 28px;
+  }
+  .banner{
+    height: auto;
+    padding: 20px 0px;
+  }
+  .banner .col-md-4{
+    padding: 0px;
+  }
+  .banner-content{
+    height: auto;
+  }
+  .banner-form{
+    height: auto;
+    padding-left: 20px;
+  }
+  .banner-form .card {
+    width: 320px;
+  }
+  .list-img img{
+    width: 100%;
+  }
+  .icon-part{
+    text-align: center;
+    height: auto;
+  }
+  .icon-part ul{
+    padding: 10px 0px;
+    margin: 0px;
+  }
+  .icon-part i {
+    font-size: 30px;
+    width: 99px;
+  }
+  .features{
+    padding: 20px 0px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .bar-btn i{
+    color: white;
+    font-size: 28px;  
+  }
+  .banner{
+    height: auto;
+    padding: 20px 0px;
+  }
+  .banner-form .card {
+    width: 320px;
+  }
+  .banner .col-md-4{
+    padding: 0px;
+  }
+  .banner-content{
+    height: auto;
+    text-align: center;
+  }
+  .banner-content .title{
+    width: auto;
+    font-size: 23px;
+  }
+  .banner-title, .banner-title span{
+    font-size: 50px;
+  }
+  .banner-content p{
+    width: auto;
+    color: #cacaca;
+  }
+  .banner-content .line{
+    margin: 30px auto;
+  }
+  .banner-form{
+    height: auto;
+    padding-left: 20px;
+  }
+  .banner-icon{
+    text-align: center;
+  }
+  .list-img img{
+    width: 100%;
+  }
+  .icon-part{
+    text-align: center;
+    height: auto;
+  }
+  .icon-part ul{
+    padding: 10px 0px;
+    margin: 0px;
+  }
+  .icon-part i {
+    font-size: 30px;
+    width: 60px;
+  }
+  .features{
+    padding: 0px
+  }
+  .feature-tab{
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .feature-tab li{
+    display: inline-block;
+  }
+  .feature-tab .tab:first-child{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .feature-tab .tab:last-child{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .feature-tab .tab{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+  .tab-content{
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .tab-content p{
+    width: auto;
+    margin-top: 10px;
+    padding: 7px 0px;
+    margin: 0px;
+  }
+  .feature-img{
+    display: initial;
+    text-align: center;
+  }
+  .feature-list .row{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .feature-list{
+    padding: 25px 0px;
+  }
+  .subclass .dash{
+    margin: 15px auto;
+  }
+  .blah .row{
+    flex-direction: column;
+  }
+  .blah h5{
+    margin: 13px 0px;
+  }
+  .feature-picture{
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .form-message textarea{
+    width: 100%;
+  }
+  .testimonial{
+   padding: 30px 0px;
+  }
+  .pricing{
+    padding: 30px 0px;
+  }
+  .upper-part p{
+    margin: 0px 25px;
+  }
+  .awesome{
+    padding: 20px 0px;
+  }
+  .lower-part{
+    padding: 30px;
+  }
+  .lower-part img{
+    width: 15%;
+  }
+  .lower-part p{
+    margin: 0px;
+  }
+  .table-1{
+    padding: 25px;
+  }
+  .comment{
+    padding: 0px 35px;
+  }
+  .subclass{
+    padding: 0px 15px;
+  }
+  .user-photo img{
+    width: 80%;
+  }
+  .footer-icon i{
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .contact-form{
+    padding: 45px 0px;
+  }
+}
